@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 31px 0;
+}
+header img {
+  cursor: pointer;
+}
+header .header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__container ul {
+  display: flex;
+}
+header .header__container ul li {
+  margin-right: 20px;
+}
+header .header__container ul li .header__active {
+  color: black;
+  border: 3px solid black;
+  padding: 12px 25px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+header .header__container ul li a {
+  opacity: 0.7;
+}
+header .header__container ul li a:hover {
+  color: chocolate;
+  transition-duration: 1000ms;
+}
+header .header__container ul li .header__active:hover {
+  background-color: black;
+}
+
+main .hero__section {
+  background-color: #2D2641;
+  margin-bottom: 140px;
+}
+main .hero__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .hero__box .hero__left-box img {
+  margin-bottom: 63px;
+}
+main .hero__box .hero__left-box h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 400;
+}
+main .hero__box .hero__left-box p {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 26px;
+  width: 540px;
+  margin-bottom: 24px;
+}
+main .hero__box .hero__left-box a {
+  color: white;
+  border: 2px solid white;
+  padding: 12px 25px;
+  letter-spacing: 1.5px;
+}
+main .hero__box .hero__left-box a:hover {
+  color: chocolate;
+  background-color: #000;
+  transition-duration: 1000ms;
+}
+main .hero__box .hero__right-box img {
+  position: relative;
+  top: 100px;
+}
+
+.different__section {
+  margin-bottom: 150px;
+}
+.different__section .different__box img {
+  margin-bottom: 63px;
+}
+.different__section .different__box h1 {
+  font-size: 72px;
+  font-weight: 400;
+  color: #2C2830;
+  margin-bottom: 80px;
+}
+.different__section .different__box ul {
+  display: flex;
+  justify-content: space-between;
+}
+.different__section .different__box ul li {
+  margin-right: 30px;
+}
+.different__section .different__box ul li h3 {
+  font-size: 28px;
+  color: #2C2830;
+  margin-bottom: 17px;
+}
+.different__section .different__box ul li img {
+  margin-bottom: 32px;
+}
+.different__section .different__box ul li p {
+  font-size: 16px;
+  color: #837D88;
+  width: 350px;
+}
+
+.work__section {
+  margin-bottom: 120px;
+  background-color: #2D2641;
+  padding: 70px 82px;
+  color: white;
+}
+.work__section .work__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work__section .work__box .work__left-box h1 {
+  width: 540px;
+  font-size: 56px;
+}
+.work__section .work__box .work__right-box a {
+  border: 2px solid #fff;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  padding: 12px 20px;
+}
+.work__section .work__box .work__right-box a:hover {
+  color: chocolate;
+  background-color: #000;
+  transition-duration: 1000ms;
+}
+
+footer {
+  background: #F2F2F2;
+  padding: 60px;
+}
+footer .footer__box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+footer .footer__box-top .footer__right-top img {
+  margin-right: 20px;
+}
+footer .footer__box-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__box-bottom ul h3 {
+  margin-bottom: 36px;
+  font-size: 13px;
+  color: #837D88;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+footer .footer__box-bottom ul li {
+  margin-top: 15px;
+}
+footer .footer__box-bottom ul li a {
+  color: #2D2641;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+footer .footer__box-bottom ul li a:hover {
+  color: chocolate;
+  transition-duration: 1000ms;
+}/*# sourceMappingURL=main.css.map */
